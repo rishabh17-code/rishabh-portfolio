@@ -58,7 +58,7 @@ function App() {
       <nav className="sticky top-0 z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-xl border-b border-slate-200/50 dark:border-slate-800/50">
         <div className="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
           <h1 className="text-2xl font-black tracking-tighter bg-gradient-to-r from-blue-600 to-indigo-500 bg-clip-text text-transparent">
-            RISHABH<span className="text-slate-400 dark:text-slate-600">.DEV</span>
+            RISHABH<span className="text-slate-400 dark:text-slate-600">.portfolio</span>
           </h1>
           
           <div className="flex items-center gap-8">
@@ -155,7 +155,7 @@ function App() {
               />
               <ProjectCard 
                 title="Placement Tracker"
-                desc="Enterprise-grade tracking system for campus drives. Features real-time eligibility filtering and student status updates."
+                desc="MERN-based placement management system featuring real-time drive notifications and automated student eligibility checks. Implemented secure REST APIs for data handling and a responsive UI for seamless student-admin interaction."
                 tags={['MERN Stack', 'Tailwind', 'REST API']}
                 github="https://github.com/rishabh17-code/Smart-Placement-System"
                 live="https://smart-placement-system-kappa.vercel.app/"
@@ -171,10 +171,11 @@ function App() {
             <h3 className="text-3xl font-black mb-16 text-center tracking-tight">Technical Expertise</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
-                { title: 'Frontend', skills: ['React.js', 'Tailwind CSS', 'Redux'], color: 'text-blue-500' },
+                { title: 'Frontend', skills: ['React.js', 'Tailwind CSS', 'html'], color: 'text-blue-500' },
                 { title: 'Backend', skills: ['Node.js', 'Express', 'REST APIs'], color: 'text-emerald-500' },
-                { title: 'Database', skills: ['MongoDB', 'MySQL', 'Firebase'], color: 'text-orange-500' },
-                { title: 'Languages', skills: ['C++', 'Python', 'JavaScript'], color: 'text-purple-500' }
+                { title: 'Database', skills: ['MongoDB', 'MySQL'], color: 'text-orange-500' },
+                { title: 'Languages', skills: ['java', 'Python', 'JavaScript'], color: 'text-purple-500' },
+                { title: 'tools', skills: ['postman', 'github', 'atlas','aiven'], color: 'text-yellow-500' }
               ].map((cat) => (
                 <div key={cat.title} className="p-8 rounded-3xl bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800">
                   <h5 className={`${cat.color} font-black mb-6 uppercase text-xs tracking-[0.2em]`}>{cat.title}</h5>
